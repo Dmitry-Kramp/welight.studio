@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кейсы</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<!-- Header start -->
+<header class="header">
+    <div class="header__wrapper">
+      <div class="logo-up">
+        <a href="http://127.0.0.1:5500/index.html"><img src="./img/svg/logo-black-header.svg"  alt="Welight Studio" /></a>
+      </div>
+      <ul class="menu__header">
+        <li><a href="#Услуги" class="a_1">Услуги</a></li>
+        <li><a href="#Кейсы" class="a_2">Кейсы</a></li>
+        <li><a href="#Отзывы" class="a_3">Отзывы</a></li>
+        <li><a href="#Контакты" class="a_4">Контакты</a></li>
+      </ul>
+   </header>
+  <!-- Header end -->
+  <main class="main">
+      <div class="first-block-navigation">
+          <div class="wrapper__navigation">
+            <div class="navigation-h-h">
+                <h2 class="navigation-h2">Кейсы</h2>
+                <h3 class="navigation-h3">Последние работы, которые привлекают людей к нашим клиетам</h3>
+            </div>
+              <div id="myBtnContainer" class="filter">
+                <button class="btn button_type_all active" onclick="filterSelection('all')">Все работы</button>
+                <button class="btn button_type_site" onclick="filterSelection('site')">Сайты</button>
+                <button class="btn button_type_banner" onclick="filterSelection('banner')">Баннеры</button>
+                <button class="btn button_type_icons" onclick="filterSelection('icons')">Иконки</button>
+                <button class="btn button_type_animation" onclick="filterSelection('animation')">Анимация</button>
+                <button class="btn button_type_print" onclick="filterSelection('print')">Полиграфия</button>
+                <button class="btn button_type_app" onclick="filterSelection('app')">Приложения</button>
+                <button class="btn button_type_logo" onclick="filterSelection('logo')">Логотипы</button>
+              </div>
+            </div>
+          </div>
+        <div class="wrapper__content-filter">
+          <div class="container__caseg">
+            <div class="filterDiv all"></div>
+            <div class="filterDiv site">
+              <div class="airpods">
+                <h2 class="caseg-filter-h2">Прогнозище <span style="font-weight: 500;">“Бесплатные прогнозы на спорт”</span></h2>
+                <h3 class="caseg-filter-h3">Разработка дизайна сайта прогнозов на спорт</h3>
+                <img src="./img/prognozishe.jpg" alt="Airpods" class="caseg-filter-img">
+              </div>
+            </div>
+            <div class="filterDiv banner">
+              <div class="airpods">
+                <h2 class="caseg-filter-h2">Баннер <span style="font-weight: 500;">“Apple AirPods 2”</span></h2>
+                <h3 class="caseg-filter-h3">Разработка баннера для беспроводных наушников</h3>
+                <img src="./img/airpods.jpg" alt="Airpods" class="caseg-filter-img">
+              </div>
+              <div class="santex">
+                <h2 class="caseg-filter-h2">Баннеры <span style="font-weight: 500;">“Магазин сантехники”</span></h2>
+                <h3 class="caseg-filter-h3">Разработка баннеров для интернет-магазина сантехники</h3>
+                <img src="./img/santex.jpg" alt="Santex" class="caseg-filter-img">
+              </div>
+              <div class="kater">
+                <h2 class="caseg-filter-h2">Баннер <span style="font-weight: 500;">“Пенная вечеринка”</span></h2>
+                <h3 class="caseg-filter-h3">Разработка баннера для пенной вечеринки на катере в г. Одесса</h3>
+                <img src="./img/kater.jpg" alt="Kater" class="caseg-filter-img">
+              </div>
+              <div class="ustrizi">
+                <h2 class="caseg-filter-h2">Баннеры <span style="font-weight: 500;">“Таки да, Устрицы”</span></h2>
+                <h3 class="caseg-filter-h3">Разработка баннеров для Одесского фестиваля устриц</h3>
+                <img src="./img/ustrizi.jpg" alt="Ustrizi" class="caseg-filter-img">
+              </div>
+              <div class="ring">
+                <h2 class="caseg-filter-h2">Баннеры <span style="font-weight: 500;">“Obruchalki”</span></h2>
+                <h3 class="caseg-filter-h3">Разработка баннеров для ювилерной дизайн-студии “Obruchalki”</h3>
+                <img src="./img/ring.jpg" alt="Ring" class="caseg-filter-img">
+              </div>
+              <div class="garden">
+                <h2 class="caseg-filter-h2">Баннеры <span style="font-weight: 500;">“Садовый уход”</span></h2>
+                <h3 class="caseg-filter-h3">Разработка баннеров для садовых работ</h3>
+                <img src="./img/garden.jpg" alt="Garden" class="caseg-filter-img">
+              </div>
+            </div>
+            <div class="filterDiv icons"></div>
+            <div class="filterDiv animation"></div>
+            <div class="filterDiv print">
+              <div class="kiev">
+                <h2 class="caseg-filter-h2">Zertifikat <span style="font-weight: 500;">“Makler Lotse”</span></h2>
+                <h3 class="caseg-filter-h3">Разработка сертификата для учеников-маклеров в риэлторской компании</h3>
+                <img src="./img/sertificate.jpg" alt="Kiev" class="caseg-filter-img">
+              </div>
+              <div class="sertifikate">
+                <h2 class="caseg-filter-h2">Kiev <span style="font-weight: 500;">“Travel with pleasure”</span></h2>
+                <h3 class="caseg-filter-h3">Разработка брошюры путешествий по Киеву в 4 фальца на английском</h3>
+                <img src="./img/kiev.jpg" alt="Sertifikate" class="caseg-filter-img">
+              </div>
+              <div class="bottle">
+                <h2 class="caseg-filter-h2">Blissful <span style="font-weight: 500;">“Health & Wellness”</span></h2>
+                <h3 class="caseg-filter-h3">Разработка упаковки для “Коллоидного серебра” Blissful</h3>
+                <img src="./img/bottle.jpg" alt="Bottle" class="caseg-filter-img">
+              </div>
+            </div>
+            <div class="filterDiv app"></div>
+            <div class="filterDiv logo">
+              <div class="fatima">
+                <h2 class="caseg-filter-h2">Фатима <span style="font-weight: 500;">“Жарима Вместе”</span></h2>
+                <h3 class="caseg-filter-h3">Разработка логотипа для мясного ресторана</h3>
+                <img src="./img/fatima.jpg" alt="Fatima" class="caseg-filter-img">
+              </div>
+              <div class="makler-lotse">
+                <h2 class="caseg-filter-h2">Makler Lotse <span style="font-weight: 500;">“Wir durchleuchten den Immobilienmarkt”</span></h2>
+                <h3 class="caseg-filter-h3">Разработка логотипа для риэлторской компании в Германии</h3>
+                <img src="./img/makler-lotse.jpg" alt="Makler Lotse" class="caseg-filter-img">
+              </div>
+              <div class="rosting">
+                <h2 class="caseg-filter-h2">Ростинг <span style="font-weight: 500;">“Путешествовать — значит жить”</span></h2>
+                <h3 class="caseg-filter-h3">Разработка логотипа для туристического агенства</h3>
+                <img src="./img/rosting.jpg" alt="Rosting" class="caseg-filter-img">
+              </div>
+              <div class="yame">
+                <h2 class="caseg-filter-h2">Yame <span style="font-weight: 500;">“EU Poultry s.r.o.”</span></h2>
+                <h3 class="caseg-filter-h3">Разработка логотипа для готовых полуфабрикатов</h3>
+                <img src="./img/yame.jpg" alt="Yame" class="caseg-filter-img">
+              </div>
+              <div class="puzzle">
+                <h2 class="caseg-filter-h2">Krampuzzle <span style="font-weight: 500;">“Детские эко-игрушки”</span></h2>
+                <h3 class="caseg-filter-h3">Разработка логотипа и элементов фирменного стиля для магазина детских эко-игрушек</h3>
+                <img src="./img/puzzle.jpg" alt="Puzzle" class="caseg-filter-img">
+              </div>
+              <div class="strategic">
+                <h2 class="caseg-filter-h2">Strategic Overload <span style="font-weight: 500;">“Strategies from business”</span></h2>
+                <h3 class="caseg-filter-h3">Разработка логотипа для компании Strategic Overload - помощь бизнесу</h3>
+                <img src="./img/puzzle.jpg" alt="Strategic" class="caseg-filter-img">
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="footer">
+          <div class="section-footer">
+            <div class="wrapper__footer">
+              <div class="footer-column-1">
+                <h2 class="footer-h2">Оформите заяву через сайт</h2>
+                <p class="footer-p">Вы можете оформить заявку через сайт.  Мы свяжемся с Вами в ближайшее время и обсудим все подробности удобным Вам способом</p>
+              </div>
+              <div class="footer-column-2">
+                <img src="./img/svg/ico-footer.svg" alt="Footer" class="ico-footer">
+                <button type="submit" class="button-footer">Оформить</button>
+                <p class="footer-p-2">Выберите удобный способ связи</p>
+              </div>
+              <div class="footer-logo">
+                <img src="./img/svg/logo-footer.svg" alt="Logo-footer" class="logo-f">
+                <p class="footer-logo-p">© 2020 welight.studio, все права защищены</p>
+              </div>
+            </div>
+          </div>
+        </section>
+  </main>
+  <script src="./js/main.js"></script>
